@@ -1,0 +1,16 @@
+.bgjuan {
+    background-image:url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.logo {
+    margin:10px;
+    padding:10px;
+} 
+
+.black {
+    color:black;
+}
+
