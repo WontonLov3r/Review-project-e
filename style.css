@@ -1,7 +1,6 @@
 .bgjuan {
     background-image:url("assets/images/aidan-hancock-8RU4OuA6Yug-unsplash.png");
     background-repeat:no-repeat;
-    background-attachment:fixed;
     background-size: cover;
 }
 
@@ -17,4 +16,8 @@
 
 .center {
     text-align:center;
+}
+
+* {
+    --bs-gutter-x :0 !important;
 }
