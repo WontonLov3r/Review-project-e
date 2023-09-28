@@ -1,14 +1,28 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-</head>
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
 <body>
     <div class="container-fluid">
@@ -47,7 +61,7 @@
                         <div class="container-fluid p-5">
                           <h1 class="display-5 fw-bold">We design and develop</h1>
                           <p class="col-md-8 ">We are a new design studio based in USA. We have over 20 years of combined experience, and know a thing or two about designing websites and mobile apps. </p>
-                          <button class="btn btn-primary btn-lg" type="button">Contact Us</button>
+                          <button class="btn btn-primary backgroundblue" type="button">Contact Us</button>
                         </div>
                       </div>
                 </div>
@@ -74,38 +88,42 @@
     <br><br><br>
 
 
-    <div class="row backgroundgray p-5">
-        <div class="col-1">
-        </div>
-        <div class="col-4">
+    <div class="row backgroundgray">
+        <div class="col-6 p-5">
             <h1>Professional Skills</h1> <br>
             <p class="progressbartext">UI/UX DESIGN 75%</p>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar backgroundblue" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                     aria-valuemax="100"></div>
             </div><br><br>
 
 
             <p class="progressbartext">WEB DEVELOPMENT 90%</p>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar backgroundblue" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
                     aria-valuemax="100"></div>
             </div><br><br>
 
 
             <p class="progressbartext">MARKETING 65%</p>
-            <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar backgroundblue" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
                     aria-valuemax="100"></div>
             </div>
         </div>
+        <div class="col-6">
+        <img
+        class="img-fluid w-100"
+        src="assets/images/stil-sHGyGynyD5Y-unsplash.png"
+      />
+</div>
     </div>
 
     <div class="row backgroundblue p-5">
         <div class="col-md-3 my-auto">
             <div class="d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <img class="px-3" src="assets\images\icons\icon-01.png"/>
+                    <img class="px-3" src="assets/images/icons/icon-01.png"/>
                 </div>
                 <div>
                     <p>548<br><small>PROJECTS COMPLETED</small></p>
@@ -115,7 +133,7 @@
         <div class="col-md-3 my-auto">
             <div class="d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <img class="px-3" src="assets\images\icons\icon-02.png"/>
+                    <img class="px-3" src="assets/images/icons/icon-02.png"/>
                 </div>
                 <div>
                     <p>1465<br><small>WORKING HOURS</small></p>
@@ -125,7 +143,7 @@
         <div class="col-md-3 my-auto">
             <div class="d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <img class="px-3" src="assets\images\icons\icon-03.png"/>
+                    <img class="px-3" src="assets/images/icons/icon-03.png"/>
                 </div>
                 <div>
                     <p>612<br><small>POSITIVE FEEDBACKS</small></p>
@@ -135,7 +153,7 @@
         <div class="col-md-3 my-auto">
             <div class="d-flex flex-row justify-content-center">
                 <div class="p-2">
-                    <img class="px-3" src="assets\images\icons\icon-04.png"/>
+                    <img class="px-3" src="assets/images/icons/icon-04.png"/>
                 </div>
                 <div>
                     <p>735<br><small>HAPPY CLIENTS</small></p>
@@ -144,8 +162,99 @@
         </div>
     </div>
 
-    <div class="row">hi</div>
-    <div class="row">hi</div>
+    <div class="row">
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/lemon.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/vanilla.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/coconut.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/komaso.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay justify-content-center">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/spices.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/fresh.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/olive.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+      <div class="col p-0 contain">
+        <img
+          class="img-fluid w-100 image"
+          src="assets/images/natural.png"
+        />
+        <div class="middle">
+          <div class="iconoverlay justify-content-center">
+            <img src="assets/images/icons/hover-icon.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div class="row backgroundgray ">
         <h1 class="p-3 graye">asdasdasdad</h1>
@@ -158,7 +267,7 @@
       </div>
 
 
-      <div class="row smth">
+      <div class="row smth ">
         <div class="col p-0 text-center">
           <img class="img-fluid p-3" src="assets/images/icons/icon-05.png" />
           <h3 class="p-3">UI / UX DESIGN</h3>
@@ -249,9 +358,125 @@
         </div>
       </div>
 
-    <div class="row backgroundgray ">
-        <h1 class="p-3 graye">asdasdasdad</h1>
-    </div>
+    <div class="row backgroundgray">
+      <div class="col-2"></div>
+      <div class="col-8 p-5 my-auto smth">
+        <h2 class="text-center fw-bold">Need a Project?</h2>
+        <h4 class="text-center fw-lighter">
+          Let us know what you're looking for in an agency. We'll take a look
+          and see if this could be the start of something beautiful.
+        </h4>
+        <div class="row p-3" id="help">
+          <div class="col-5 mx-auto">
+            <h4 class="bg-white p-3 mx-auto fw-lighter">Your Name</h4>
+          </div>
+          <div class="col-2"></div>
+          <div class="col-5 mx-auto">
+            <h4 class="bg-white p-3 mx-auto fw-lighter">Your Email</h4>
+          </div>
+        </div>
+        <div class="row p-3">
+          <h4 class="col-12 bg-white p-3 fw-lighter">Your Title</h4>
+        </div>
+        <div class="row p-3">
+          <h4 class="col-12 bg-white p-3 fw-lighter">Your Comment</h4>
+        </div>
+        <div class="row p-3">
+          <div class="col-4">
 
-<footer class="backgroundblack">hi</footer>
+
+          </div>
+          <div class="col-4 text-center">
+            <button class="px-5 py-3 backgroundblue white" id="font-Mont">SEND MESSAGE</button>
+          </div>
+          <div class="col-4">
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-2"></div>
+
+      <section id="footer" class="p-5 m-0 bg-black smth">
+        <div class="row">
+          <div class="col-5">
+            <h4 class="white fw-bold p-2 mx-3">Piroll Design, Inc.</h4>
+
+
+            <p class="white p-2 mx-3">
+              © 2017 Piroll. All rights reserved. <br>Designed by robirurk.
+            </p>
+          </div>
+          <div class="col white">
+            <p>hello@pirolltheme.com</p>
+            <p>+44 987 065 908</p>
+          </div>
+          <div class="col white">
+            <div class="row">
+              <div class="col">
+                <p>Projects</p>
+              </div>
+              <div class="col">
+                <p>News</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>About</p>
+              </div>
+              <div class="col">
+                <p>Events</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Services</p>
+              </div>
+              <div class="col">
+                <p>Contact</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Career</p>
+              </div>
+              <div class="col">
+                <p>Legal</p>
+              </div>
+            </div>
+          </div>
+          <div class="col white text-center">
+            <div class="row">
+              <div class="col">
+                <p>Facebook</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Twitter</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>instagram</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col">
+                <p>Dribble</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
 
